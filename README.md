@@ -1,3 +1,7 @@
+Integrantes: Daniel da Silva Lima e Higor dos Santos
+
+Explicação das funções:
+
 Funções do JavaScript
 favoritar(botao)
 

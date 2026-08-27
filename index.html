@@ -163,8 +163,6 @@
 
                 <h3>Interestelar</h3>
 
-                <p>⭐ 8.7</p>
-
                 <div class="botoes">
 
                     <button onclick="favoritar(this)">
@@ -185,8 +183,6 @@
                 <img src="https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg">
 
                 <h3>Batman</h3>
-
-                <p>⭐ 8.0</p>
 
                 <div class="botoes">
 
@@ -209,7 +205,6 @@
 
                 <h3>Vingadores: Ultimato</h3>
 
-                <p>⭐ 8.3</p>
 
                 <div class="botoes">
 
@@ -232,8 +227,6 @@
 
                 <h3>Homem-Aranha</h3>
 
-                <p>⭐ 8.2</p>
-
                 <div class="botoes">
 
                     <button onclick="favoritar(this)">
@@ -255,8 +248,6 @@
 
                 <h3>Um Sonho de Liberdade</h3>
 
-                <p>⭐ 9.3</p>
-
                 <div class="botoes">
 
                     <button onclick="favoritar(this)">
@@ -277,8 +268,6 @@
                 <img src="https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg">
 
                 <h3>O Poderoso Chefão</h3>
-
-                <p>⭐ 9.2</p>
 
                 <div class="botoes">
 
@@ -303,7 +292,6 @@
 
     <script>
 
-        // 1 - Função para favoritar um filme
         function favoritar(botao) {
 
             if (botao.innerHTML == "Favoritar") {
@@ -319,9 +307,6 @@
             }
 
         }
-
-
-        // 2 - Função para pesquisar filmes
         function pesquisar() {
 
             let texto = document.getElementById("pesquisa").value.toLowerCase();
@@ -345,9 +330,6 @@
             });
 
         }
-
-
-        // 3 - Função para mostrar todos os filmes
         function mostrarTodos() {
 
             let filmes = document.querySelectorAll(".filme");
@@ -361,9 +343,6 @@
             document.getElementById("pesquisa").value = "";
 
         }
-
-
-        // 4 - Função para mostrar somente os favoritos
         function filtrarFavoritos() {
 
             let filmes = document.querySelectorAll(".filme");
@@ -385,9 +364,6 @@
             });
 
         }
-
-
-        // 5 - Função para mostrar informações do filme
         function verDescricao(filme) {
 
             if (filme == "Interestelar") {
@@ -418,8 +394,6 @@
 
         }
 
-
-        // 6 - Função para voltar ao início
         function voltarInicio() {
 
             window.scrollTo(0, 0);
